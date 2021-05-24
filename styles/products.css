@@ -1,0 +1,90 @@
+@media screen and (min-width: 640px)  {
+    .product {
+        width: calc( (100%/4) - 8px);
+    }
+}
+
+.pagina_productos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 40px 0;
+}
+
+.shampoo_productos {
+     color: rgb(49, 50, 57);
+     width: 100%;
+}
+
+.product {
+    width: calc(50% - 8px);
+    height: 160px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin: 4px;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.link_carbon_activado {
+    background-image: url(../archivos/carbon_activado.jpeg);
+}
+
+.link_calendula {
+    background-image: url(../archivos/calendula.jpeg);
+}
+
+.link_coco {
+    background-image: url(../archivos/Coco2.jpeg);
+}
+
+.link_curcuma {
+    background-image: url(../archivos/arcillaroja5.jpg);
+}
+
+.link_hibisco {
+    background-image: url(../archivos/arcillaroja4.jpg);   
+}
+
+.link_ortiga {
+    background-image: url(../archivos/arcillaroja3.jpg);
+}
+
+.link_arcilla_roja {
+    background-image: url(../archivos/arcillaroja2.jpg);
+}
+
+.link_niñxs {
+    background-image: url(../archivos/niñxs.jpeg);
+}
+
+.acondicionador_productos {
+    color: rgb(49,50,57);
+    width: 100%;
+}
+
+.link_acondicionador {
+
+    background-image: url(../archivos/Acondicionador.jpg);
+}
+
+.reparador_capilar_productos {
+    color: rgb(49,50,57);
+    width: 100%;
+}
+
+.link_serum {
+    background-image: url(../archivos/serum.jpeg);
+}
+
+.jabones_productos {
+    color: rgb(49,50,57);
+    width: 100%;
+}
+
+.link_cacao_karite {
+    background-image: url(../archivos/jabon.jpeg);
+}
+
+.link_zanahoria_almendras {
+    background-image: url(../archivos/jabon2.jpeg);
+}

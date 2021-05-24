@@ -6,42 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasionaria</title>
     <link href="styles/index.css" rel="stylesheet">
-    <link href="archivos/florsfondo.png" rel="icon" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-
-
-
-
 </head>
 <body>
     <header>
         <nav>
-            <a title="logo Pasionaria" href="index.html"><img class="logonav" src="archivos/pasionaria3.png" alt="logo Pasionaria"></a>
+            <a href="index.html"><img class="logonav" src="archivos/pasionaria3.png" alt="logo Pasionaria"></a>
             <label for="menu"><img class="logomenu" src="archivos/logomenu1.png" ></label>
             <input id="menu" type="checkbox">
             <ul class="secciones">
-                <li class="item"><a href="#about-me">Nosotros</a></li>
-                <li class="item"><a href="productos.html">Productos</a></li>
-                <li class="item"><a href="#contact">Contacto</a></li>
+                <li class="item"><a class="sections" href="#about-me">Nosotros</a></li>
+                <li class="item"><a class="sections" href="productos.html">Productos</a></li>
+                <li class="item"><a class="sections" href="#contact">Contacto</a></li>
             </ul>
             <ul class="secciones_movile">
-                <li class="item"><a href="#about-me">Nosotros</a></li>
-                <li class="item"><a href="productos.html">Productos</a></li>
-                <li class="item"><a href="#contact">Contacto</a></li>
+                <li class="item"><a class="sections" href="#about-me">Nosotros</a></li>
+                <li class="item"><a class="sections" href="productos.html">Productos</a></li>
+                <li class="item"><a class="sections" href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
     
     <section class="portada">
         <img class="img_portada" src="archivos/jabonportada.jpeg" alt="portada pasionaria">
+    </section>
+    <section class="banner" >   
         <h1 class="slogan">Cosmetica Natural</h1>
         <img class="logoflor" src="archivos/flor3.png">
-    </section>
+    </section> 
     <section id="about-me">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque molestias quae maxime asperiores error, consequatur cupiditate eos fugit fugiat impedit voluptates hic labore vel quasi omnis ut minima! Placeat, dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, quam et voluptatem deleniti repellat eaque velit repellendus? Impedit assumenda unde, velit blanditiis dignissimos architecto facilis hic harum eaque, porro rerum!</p>
     </section>
-    <section class="segundaportada"><img class="portada2" src="archivos/Hibisco_portada2.jpeg"></section>
+    <section class="segundaportada">
+        <img class="portada2" src="archivos/Hibisco_portada2.jpeg">
+    </section>
     <section class="formulario">
         <h3 class="comentarios">Deja tu comentario</h3>
         <label  for="email"></label>
@@ -52,12 +51,12 @@
     
     <footer id="contact">
         <h4 class="contactanos">Contactanos! Seguinos!</h4>
-        <a title="whatsapp Pasionaria"><img class="whatsapp" src="archivos/whatsapp.png" alt="whatsapp Pasionaria"></a>
-        <a title="instagram Pasionaria" href="https://www.instagram.com/pasionaria_cosmetica/?hl=es-la"><img class="instagram" src="archivos/instagram.png" alt="instagram Pasionaria"></a>
+        <img class="whatsapp" src="archivos/whatsapp.png" alt="whatsapp Pasionaria"></a>
+        <a href="https://www.instagram.com/pasionaria_cosmetica/?hl=es-la">
+            <img class="instagram" src="archivos/instagram.png" alt="instagram Pasionaria">
+        </a>
         <p class="ubicacion">La rancherita, Valle de Paravachasca, sierras de Cordoba, Argentina.</p>
         <p class="tel"> 3412637011 (Solo Whatsapp)</p>
-        
-
     </footer>
     
 </body>
