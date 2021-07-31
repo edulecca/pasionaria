@@ -1,9 +1,8 @@
-Body {
+body {
     margin: 0;
     font-family: 'Rock Salt', cursive;
     background-color:  #e9ecef;
 }
-
 
 nav {
     width: 100%;
@@ -37,6 +36,7 @@ nav {
 .secciones {
     display: none;
 }
+
 #menu {
     display: none;
 }
@@ -70,11 +70,17 @@ nav {
     background-color: #6c757d;
 }
 
-.img_portada {
+.img_portada1_1 {
+    
     width: 100%;
     height: 500px;
-    padding-top: 50px;    
+    padding-top: 50px; 
 }
+
+.img_portada1_2 {
+    display: none;
+}
+
 .banner {
     background-color: #6c757d;
     text-align: center;
@@ -106,9 +112,20 @@ nav {
     box-sizing: border-box;
     display: inline-block;
     padding: 10px;
+    font-family:'Baloo Chettan 2', cursive;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
-.portada2 {
+.portada2_1 {
+    display: none;
+}
+
+.portada2_2 {
+    display: none;
+}
+
+.portada2_3 {
     width: 100%;
     height: 500px;
     bottom: 0;
@@ -116,6 +133,10 @@ nav {
 
 .segundaportada {
     line-height: 0;
+}
+
+.flor_formulario {
+    display: none;
 }
 
 .formulario {
@@ -139,7 +160,6 @@ nav {
 }
 
 .mensaje {
-    
     height: 40px;
     margin: 15px auto;
     background-color: #f8f9fa;
@@ -162,6 +182,8 @@ nav {
     background-color:rgb(49,50,57); 
     flex-wrap: wrap;
     justify-content: center;
+    font-family:'Baloo Chettan 2', cursive;
+    font-size: 18px;
 }
 
 .contactanos {
@@ -191,35 +213,90 @@ nav {
     text-align: center;
     color: #e9ecef;
 }
+
 .tel {
     display: flex;
     text-align: center;
     font-size: smaller;
     color: #e9ecef;
+    font-family:'Baloo Chettan 2', cursive;
 }
 
 @media (min-width: 1024px) {
+   
     nav {
         height: 80px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
     }
     
     .logomenu {
         display: none;
     }
+    
     .secciones {
         display: flex;
         list-style: none;
-          
     }
   
     .item {
         margin: 20px 15px 0 20px;
-        
-        
     }
-    .img_portada {
-        height: 400px;
+
+    .portada {
+        display: flex;
+        justify-content: center;
+        background-color:#e9ecef ;
     }
-}
+    
+    .img_portada1_1 {
+        display: none;
+    }
+
+    .img_portada1_2 {
+        display: flex;
+        width: 100%;
+    }
+    
+    .banner {
+        display: none;
+    }
+
+    #about-me {
+        font-size: 20px;
+    }
+
+    .segundaportada {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .portada2_1 {
+        display: flex;
+        width: 49%;
+        height: 40%;
+    }
+    
+    .portada2_2 {
+        display: flex;
+        width: 49%;
+        height: 40%;
+    }
+
+    .portada2_3 {
+        display: none;
+    }
+
+    .form {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .flor_formulario {
+        display: flex;
+    }
+    
+    .flor {
+        width: 100%;
+        height: auto;    
+    }
+}    

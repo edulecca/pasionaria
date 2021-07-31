@@ -1,11 +1,9 @@
-
-
 .pagina_productos {
     display: flex;
     flex-wrap: wrap;
     padding: 100px 40px 0;
     max-width: 1280px;
-    margin: 0 auto; /* esto hace alinear centrado el contenido */
+    margin: 0 auto;
 }
 
 .shampoo_productos {
@@ -21,38 +19,49 @@
     margin: 4px;
     background-size: cover;
     border-radius: 5%;
+    color: #fafafa;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 .link_carbon_activado {
-    background-image: url(../archivos/carbon_activado.jpeg);
+    background-image: url(../archivos/carbon_activado_product.JPG);
+    background-position: center;
 }
 
 .link_calendula {
-    background-image: url(../archivos/calendula.jpeg);
+    background-image: url(../archivos/calendula_product.jpg);
+    background-position: center;
 }
 
 .link_coco {
-    background-image: url(../archivos/Coco2.jpeg);
+    background-image: url(../archivos/coco_product.JPG);
+    background-position: center;
 }
 
 .link_curcuma {
-    background-image: url(../archivos/arcillaroja5.jpg);
+    background-image: url(../archivos/curcuma_product.jpg);
+    background-position: center;
 }
 
 .link_hibisco {
-    background-image: url(../archivos/arcillaroja4.jpg);   
+    background-image: url(../archivos/portada2_3.jpeg);  
+    background-position: center;
 }
 
 .link_ortiga {
-    background-image: url(../archivos/arcillaroja3.jpg);
+    background-image: url(../archivos/ortiga_product.jpeg);
+    background-position: center;
 }
 
 .link_arcilla_roja {
-    background-image: url(../archivos/arcillaroja2.jpg);
+    background-image: url(../archivos/arcilla_roja_product.jpg);
+    background-position: center;
 }
 
 .link_niñxs {
-    background-image: url(../archivos/niñxs.jpeg);
+    background-image: url(../archivos/niñxs_product.jpeg);
+    background-position: center;
 }
 
 .acondicionador_productos {
@@ -61,8 +70,8 @@
 }
 
 .link_acondicionador {
-
-    background-image: url(../archivos/Acondicionador.jpg);
+    background-image: url(../archivos/acondicionador_product.jpg);
+    background-position: center;
 }
 
 .reparador_capilar_productos {
@@ -71,7 +80,8 @@
 }
 
 .link_serum {
-    background-image: url(../archivos/serum.jpeg);
+    background-image: url(../archivos/serum_product.jpeg);
+    background-position: center;
 }
 
 .jabones_productos {
@@ -81,15 +91,14 @@
 
 .link_cacao_karite {
     background-image: url(../archivos/jabon.jpeg);
+    background-position: center;
 }
 
 .link_zanahoria_almendras {
     background-image: url(../archivos/jabon2.jpeg);
+    background-position: center;
 }
 
-/*aca te pase esto abajo de todo por que acordate que esto es en "cascada"*/
-/*por lo que toma el ultimo estilo declarado, esto no lo estaba tomando porque lo pisaba el otro*/
-/*lo pase al final de todo para que sea lo ultimo se interprete y funciono*/
 @media screen and (min-width: 640px)  {
     .product {
         width: calc( (100%/4) - 8px);
